@@ -1,0 +1,165 @@
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: 'Microsoft Yahei', '微软雅黑', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000;
+  background: #F0F0F0;
+  -webkit-text-size-adjust: none;
+  min-width: 310px;
+}
+img {
+  border: 0;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+button,
+input,
+select,
+textarea {
+  font-size: 14px;
+  font-family: 'Microsoft Yahei', 'Simsun', '微软雅黑';
+  vertical-align: middle;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+header,
+footer,
+article,
+section,
+nav,
+menu,
+hgroup,
+time {
+  display: block;
+  clear: both;
+}
+input[type=search]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+input::placeholder {
+  color: #999;
+}
+input {
+  -webkit-appearance: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+i,
+em {
+  font-style: normal;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.header {
+  background: url("../assets/images/header_bg.png") no-repeat;
+  background-size: contain;
+  width: 100%;
+  position: relative;
+}
+.header dl dd {
+  text-align: center;
+  box-sizing: border-box;
+}
+.header dl dd.back {
+  position: absolute;
+  right: .16rem;
+  top: .2rem;
+}
+.header dl dd.back i {
+  background: url("../assets/images/person_iconBg.png") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.header dl dd.back .leftbtn {
+  background: url("../assets/images/left_arrowBg.png") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.header dl dt {
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  font-size: .2rem;
+  line-height: .7rem;
+}
+.header dl dd.logOut {
+  width: .79rem;
+  position: absolute;
+  top: .23rem;
+  left: .27rem;
+}
+.header dl dd.logOut a {
+  border: 1px solid #fff;
+  height: .235rem;
+  border-radius: .05rem;
+  display: block;
+  line-height: .235rem;
+  color: #fff;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: #373d41;
+  height: .58rem;
+  width: 100%;
+}
+.footer p {
+  text-align: center;
+  line-height: .58rem;
+  font-size: .12rem;
+  color: #fff;
+}
+.el-pagination {
+  margin: 0.6rem 0 1rem 0;
+}
+.rili {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.05rem;
+  border-bottom: 0.02rem solid #fff;
+  padding-bottom: 0.05rem;
+}
+.btn {
+  background-color: #4a87da !important;
+  color: #fff !important;
+  width: 1rem;
+}
